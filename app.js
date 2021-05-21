@@ -64,6 +64,6 @@ app.post('/read',(req,res)=>{
 
 })
 
-app.listen( process.env.PORT || 3000, ()=>{
+app.listen( process.env.PORT || 80, ()=>{
     console.log("Server started at http://localhost:3000")
 })

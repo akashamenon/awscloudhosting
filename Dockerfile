@@ -10,5 +10,5 @@ COPY . .
 
 EXPOSE 3000
 
-CMD ["mpm","start"]
+CMD ["npm","start"]
 

@@ -1,17 +1,16 @@
 version: '3'
 
-
 services:
     app:
         container_name: myapp_docker
         restart: always
         build: .
         ports:
-            -'80:3000'
+            - '80:3000'
         external_links:
-            -mongo
+            - mongo
     mongo:
         container_name: mongo
         image: mongo
         ports:
-            -'27017:27017'
+            - '27017:27017'
